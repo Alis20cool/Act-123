@@ -1,0 +1,40 @@
+<!-- 
+Descripcion: Formulario que captura el nombre
+Autor: Alison Adriana Vazquez Ruiz
+Fecha:12/octubre/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Greeting </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1> FORMULARIO GREETING </h1>
+    <!--
+        Forma que captura el nombre con método GET
+    -->
+    <form action="../php/greeting.php" method="get">
+        <label for="nombre"> INGRESA TU NOMBRE </label>
+        <br>
+        <input type="text" name="nombre" id="nombre">
+        <br> 
+
+        <label for="edad"> INGRESA TU EDAD </label>
+        <br>
+        <input type="number" name="edad" id="edad">
+        <br>
+
+        <label for="numero"> INGRESA TU NUMERO DE TELEFONO </label>
+        <br>
+        <input type="number" name="numero" id="numero">
+        <br>
+
+        <input type="submit" value="Saludar">
+        <br>
+    </form>
+</body>
+</html>
