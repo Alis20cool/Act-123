@@ -1,0 +1,57 @@
+<!-- 
+Descripcion: REGISTRO DE CUENTA DE FACEBOOK
+Autor: Alison Adriana Vazquez Ruiz
+Fecha:14/octubre/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body background="fondo.jpg">
+    <h1> CUENTA DE FACEBOOK </h1>
+    <!--
+        Forma que capturar los datos de la persona con método GET
+    -->
+    <form action="../php/registro.php" method="get">
+        <label for="nombre"> INGRESA TU(S) NOMBRE(S) </label>
+        <br>
+        <input type="text" name="nombre" id="nombre">
+        <br> 
+
+        <label for="apellidos"> INGRESA TUS APELLIDOS </label>
+        <br>
+        <input type="text" name="apellidos" id="apellidos">
+        <br> 
+
+        <h3> FECHA DE NACIMIENTO </h3>
+
+        <label for="dia"> DIA - MES - AÑO </label>
+        <br>
+        <input type="date" name="dia" id="dia">
+        <br>
+
+        <label for="numero"> INGRESA TU NUMERO DE TELEFONO </label>
+        <br>
+        <input type="number" name="numero" id="numero">
+        <br>
+
+        <label for="contraseña"> INGRESA UNA NUEVA CONTRASEÑA </label>
+        <br>
+        <input type="password" name="contraseña" id="contraseña">
+        <br>
+
+        <label for="sexo"> SEXO </label>
+        <br>
+        <input type="text" name="sexo" id="sexo">
+        <br>
+
+        <input type="submit" value="INGRESAR Y SALUDO">
+        <br>
+    </form>
+</body>
+</html>
