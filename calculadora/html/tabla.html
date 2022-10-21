@@ -1,0 +1,28 @@
+<!-- 
+Descripcion: CALCULADORA DE TABLAS DE MULTIPLICAR
+Autor: Alison Adriana Vazquez Ruiz
+Fecha:12/octubre/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Greeting </title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <h1> CALCULO DE TABLAS DE MULTIPLICAR </h1>
+    <!--
+        Forma que captura el numero de tabla con método GET
+    -->
+    <form action="../php/calcular.php" method="get">
+        <label for="tabla"> INGRESA NUMERO DE TABLA </label>
+        <br>
+        <input type="number" name="tabla" id="tabla">
+        <br> 
+        <input type="submit" value="calcular">
+    </form>
+</body>
+</html>
