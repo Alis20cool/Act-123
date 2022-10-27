@@ -1,0 +1,32 @@
+<!-- 
+Descripcion: CREAR TABLA
+Autor: Alison Adriana Vazquez Ruiz
+Fecha:21/octubre/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GENERADORA DE TABLAS </title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <h1> GENERANDO TABLA </h1>
+    <!--
+        Captura los numero para generar tabla con método GET
+    -->
+    <form action="../php/generar.php" method="get">
+        <label for="columna"> COLUMNA </label>
+        <br>
+        <input type="number" name="columna" id="columna">
+        <br> 
+        <label for="fila"> FILA </label>
+        <br>
+        <input type="number" name="fila" id="fila">
+        <br> 
+        <input type="submit" value="GENERAR TABLA">
+    </form>
+</body>
+</html>

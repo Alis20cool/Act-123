@@ -1,0 +1,28 @@
+<!-- 
+Descripcion: CALCULADORA DE DIAS VIVIDOS
+Autor: Alison Adriana Vazquez Ruiz
+Fecha:21/octubre/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CALCULADORA </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1> CALCULO DE DIAS VIVIDOS </h1>
+    <!--
+        Forma que captura el numero de tabla con método GET
+    -->
+    <form action="../php/dias.php" method="get">
+        <label for="edad"> INGRESA TU EDAD </label>
+        <br>
+        <input type="number" name="edad" id="edad" min="0" max="110">
+        <br> 
+        <input type="submit" value="DIAS VIVIDOS">
+    </form>
+</body>
+</html>
